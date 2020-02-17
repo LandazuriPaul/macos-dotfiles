@@ -118,14 +118,16 @@ source ~/.bash_aliases
 # Use the bash profile
 source ~/.bash_profile
 
+# iTerm2 integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Fuzzy finder integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # kubectl completion
 source <(kubectl completion zsh)
 
-# nvm integration
+# nvm check on directory change
 source ~/.nvm.sh
 
 # The next line updates PATH for the Google Cloud SDK.
