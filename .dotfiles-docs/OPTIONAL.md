@@ -12,6 +12,8 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 
 - [Sourcetree](https://www.sourcetreeapp.com/): The user-friendly git-GUI from Atlassian.
 
+- [TablePlus](https://tableplus.com/): friendly GUI for relational databases
+
 - [f.lux](https://justgetflux.com/): Adapt your screen to your light environment.
 
 - [Bartender](https://www.macbartender.com/): Help organise the mac menu bar icons.
