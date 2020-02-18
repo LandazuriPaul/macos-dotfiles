@@ -253,11 +253,13 @@ Show Timestamps</string>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>98 48 570 451 0 0 1440 877 </string>
+	<string>2405 -180 955 515 1440 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>723 426 570 451 0 0 1440 877 </string>
+	<string>2735 357 570 451 1440 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>543 101 570 451 0 0 1440 877 </string>
+	<string>2283 -36 570 451 1440 -180 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>2627 177 570 451 1440 -180 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2939,7 +2941,7 @@ Show Timestamps</string>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{302, 729}</string>
+		<string>{529, 671}</string>
 	</dict>
 	<key>NoSyncInstallUtilitiesPackage</key>
 	<true/>
@@ -2948,7 +2950,7 @@ Show Timestamps</string>
 	<key>NoSyncInstallationId</key>
 	<string>B43C02CF-DB13-47C3-8249-D4663B9B6143</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>2</integer>
+	<integer>4</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3675,6 +3677,8 @@ Show Timestamps</string>
 	<real>603466413.03809595</real>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<true/>
+	<key>NoSyncTurnOffFocusReportingOnHostChange</key>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
@@ -3689,6 +3693,18 @@ Show Timestamps</string>
 		<dict>
 			<key>Action</key>
 			<string>kContextMenuPointerAction</string>
+		</dict>
+		<key>Button,1,1,^,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPasteFromSelectionPointerAction</string>
+			<key>Argument</key>
+			<string>{"ConvertUnicodePunctuation":true,"WaitForPrompts":false,"Substitution":"","EscapeForShell":false,"Base64":false,"TabStopSize":4,"Delay":0.01,"RemoveNewlines":false,"Regex":"","ConvertNewlines":true,"TabTransform":0,"BracketAllowed":true,"UseRegexSubstitution":false,"ChunkSize":1024,"RemoveControls":true}</string>
+		</dict>
+		<key>Button,1,1,s,</key>
+		<dict>
+			<key>Action</key>
+			<string>kSmartSelectionPointerAction</string>
 		</dict>
 		<key>Button,2,1,,</key>
 		<dict>
@@ -3729,7 +3745,7 @@ Show Timestamps</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-16T13:35:19Z</date>
+	<date>2020-02-18T14:04:19Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
