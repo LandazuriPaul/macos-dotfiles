@@ -26,3 +26,8 @@ alias ns='npm run start'
 alias nsd='npm run start:dev'
 alias nsp='npm run start:prod'
 alias nb='npm run build'
+
+# DevOps tools
+alias kb='kubectl'
+alias tf='terraform'
+

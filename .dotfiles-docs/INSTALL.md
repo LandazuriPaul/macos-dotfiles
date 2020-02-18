@@ -74,7 +74,13 @@ In order to have an operational system to develop, here is an sorted list of ins
     brew install kubernetes-cli
     ```
 
-12. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
+12. Install [Terraform](https://www.terraform.io/):
+
+    ```sh
+    brew install terraform
+    ```
+
+13. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
     ```sh
     brew install weechat
     ```
