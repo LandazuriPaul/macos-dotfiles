@@ -9,3 +9,8 @@ HISTCONTROL=ignoreboth
 
 # iTerm2 integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+# Terraform completion
+if [ -f '/usr/local/bin/terraform' ]; then
+    complete -C /usr/local/bin/terraform terraform
+fi

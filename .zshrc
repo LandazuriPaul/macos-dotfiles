@@ -124,14 +124,22 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Fuzzy finder integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# kubectl completion
-source <(kubectl completion zsh)
-
 # nvm check on directory change
 source ~/.nvm.sh
+
+## DevOps tools
+
+# kubectl completion
+source <(kubectl completion zsh)
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/paul/scripts/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/paul/scripts/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/paul/scripts/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/paul/scripts/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Terraform completion
+if [ -f '/usr/local/bin/terraform' ]; then
+  autoload -U +X bashcompinit && bashcompinit
+  complete -o nospace -C /usr/local/bin/terraform terraform
+fi
