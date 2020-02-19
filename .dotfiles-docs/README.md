@@ -13,8 +13,8 @@ In order to install your dotfiles on a new machine, you can use the [install.sh]
 
 This script will:
 
-1. Clone this repository in bare mode renaming the `.git` directory into `.dotfiles`.
-2. Backup all your current dotfiles if there are in conflict with this repository into a `config-backup` folder.
+1. Clone this repository in you `$HOME` directory bare mode renaming the `.git` directory into `.dotfiles`.
+2. Backup any conflicting current dotfiles you might have into the `$HOME/.config-backup` folder.
 3. Set the `showUntrackedFiles` status to `no` in the local git config so you can specifically add files to your dotfiles version system. This is to avoid having to ignore the vast majority of files and folder in your home directory.
 
 ## Initialization of the versioning system
