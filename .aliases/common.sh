@@ -12,6 +12,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 # PC specifics
 alias tmp='cd ~/Documents/Development/tmp/'
+alias dev='cd ~/Documents/Development/'
 
 # Yarn
 alias yb='yarn build'
