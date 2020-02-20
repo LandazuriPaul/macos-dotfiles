@@ -146,5 +146,7 @@ if [ -f '/usr/local/bin/terraform' ]; then
 fi
 
 # Terraform / Google Cloud keys
-export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.secrets/atrocity-management-ead12f83b288.json"
-export TF_VAR_terraform_state_encryption_key="$(cat ${HOME}/.secrets/tfstate_secret.key)"
+if [ -n "${HOME}/.secrets/tfstate_secret.key" ]; then
+  export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.secrets/atrocity-management-ead12f83b288.json"
+  export TF_VAR_terraform_state_encryption_key="$(cat ${HOME}/.secrets/tfstate_secret.key)"
+fi
