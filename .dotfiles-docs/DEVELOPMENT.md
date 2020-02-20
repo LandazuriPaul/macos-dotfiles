@@ -2,6 +2,13 @@
 
 Some development tools to complete the installation process.
 
+## Common tools
+
+1. Install the Xcode Command Line tools:
+   ```sh
+   xcode-select --install
+   ```
+
 ## Node.js
 
 1. Install [nvm](https://github.com/nvm-sh/nvm), the Node.js version manager:
@@ -20,4 +27,20 @@ Some development tools to complete the installation process.
 
    ```sh
    curl -o- -L https://yarnpkg.com/install.sh | bash
+   ```
+
+## DevOps tools
+
+1. Install [Google Cloud SDK](https://cloud.google.com/sdk/):
+
+   ```sh
+   brew cask install google-cloud-sdk
+   ```
+
+   If you want to add the `gcloud` completion, you will need to download [Cloud SDK package](https://cloud.google.com/sdk/docs/quickstart-macos) and place it in `$HOME/scripts` (according to the current `.zshrc` configuration).
+
+2. Install [Terraform](https://www.terraform.io/):
+
+   ```sh
+   brew install terraform
    ```

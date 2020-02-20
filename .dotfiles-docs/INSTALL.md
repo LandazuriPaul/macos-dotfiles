@@ -74,21 +74,7 @@ In order to have an operational system to develop, here is an sorted list of ins
     brew install kubernetes-cli
     ```
 
-12. Install [Google Cloud SDK](https://cloud.google.com/sdk/):
-
-    ```sh
-    brew cask install google-cloud-sdk
-    ```
-
-    If you want to add the `gcloud` completion, you will need to download [Cloud SDK package](https://cloud.google.com/sdk/docs/quickstart-macos) and place it in `$HOME/scripts` (according to the current `.zshrc` configuration).
-
-13. Install [Terraform](https://www.terraform.io/):
-
-    ```sh
-    brew install terraform
-    ```
-
-14. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
+12. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
     ```sh
     brew install weechat
     ```
