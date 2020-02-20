@@ -208,8 +208,12 @@ Show Timestamps</string>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.iterm2_profile</string>
+	<string>~</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<false/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
@@ -226,24 +230,24 @@ Show Timestamps</string>
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
-	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
-	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
-	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
-	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
-	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
-	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
+	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
+	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
+	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oZ2yLQ5W0iUmNzhe
+	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
+	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
+	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
 	AAAAADoAAAAAAAAAAAAAAAAAAAFM
 	</data>
 	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
-	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
-	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
-	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABowsMEVUkbnVsbNINDg8QWk5T
+	Lm9iamVjdHNWJGNsYXNzoIAC0hITFBVaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFi
+	bGVBcnJheaMUFhdXTlNBcnJheVhOU09iamVjdAgRGiQpMjdJTFJUWF5jbnV2eH2IkaCk
+	rAAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
@@ -253,9 +257,9 @@ Show Timestamps</string>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2405 -180 955 515 1440 -180 1920 1057 </string>
+	<string>3360 346 759 531 3360 -180 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2735 357 570 451 1440 -180 1920 1057 </string>
+	<string>4655 377 570 451 3360 -180 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>2283 -36 570 451 1440 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -267,6 +271,18 @@ Show Timestamps</string>
 			<true/>
 			<key>ASCII Ligatures</key>
 			<false/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -498,7 +514,7 @@ Show Timestamps</string>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -906,6 +922,18 @@ Show Timestamps</string>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1139,7 +1167,7 @@ Show Timestamps</string>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1566,6 +1594,18 @@ Show Timestamps</string>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1757,7 +1797,7 @@ Show Timestamps</string>
 			</dict>
 			<key>Bound Hosts</key>
 			<array>
-				<string>paul@*:/Users/paul/Documents/Development/Projects/*</string>
+				<string>paul@*:/Users/paul/Documents/Development/*</string>
 			</array>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1805,7 +1845,7 @@ Show Timestamps</string>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -2151,7 +2191,7 @@ Show Timestamps</string>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Projects</string>
+			<string>Development</string>
 			<key>Non Ascii Font</key>
 			<string>MesloLGSNer-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -2243,6 +2283,18 @@ Show Timestamps</string>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2482,7 +2534,7 @@ Show Timestamps</string>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -2941,7 +2993,7 @@ Show Timestamps</string>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{529, 671}</string>
+		<string>{369, 717}</string>
 	</dict>
 	<key>NoSyncInstallUtilitiesPackage</key>
 	<true/>
@@ -2949,15 +3001,19 @@ Show Timestamps</string>
 	<integer>0</integer>
 	<key>NoSyncInstallationId</key>
 	<string>B43C02CF-DB13-47C3-8249-D4663B9B6143</string>
+	<key>NoSyncLastTipTime</key>
+	<real>603817291.02731299</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>8</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>603639213.03827095</real>
+	<real>603817277.57778001</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
+	<true/>
+	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
@@ -3673,11 +3729,23 @@ Show Timestamps</string>
 			</dict>
 		</array>
 	</dict>
+	<key>NoSyncSavePanelSavedSettings_SaveProfile</key>
+	<dict>
+		<key>Initial Directory</key>
+		<string>/Users/paul</string>
+	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>603466413.03809595</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+	</array>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<true/>
 	<key>NoSyncTurnOffFocusReportingOnHostChange</key>
+	<true/>
+	<key>NoSyncTurnOffMouseReportingOnHostChange</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
@@ -3745,7 +3813,7 @@ Show Timestamps</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-18T14:04:19Z</date>
+	<date>2020-02-20T14:08:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
