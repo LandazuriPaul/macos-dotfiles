@@ -37,3 +37,5 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 - [FinderPath](https://bahoom.com/finderpath/): Finder extension for the path and much more
 
 - [Gapplin](https://apps.apple.com/app/coteditor/id768053424?ign-mpt=uo%3D8): Opens SVG files to export them into any image extension file
+
+- [Convertos](https://apps.apple.com/us/app/convertos-unit-converter-widget/id933651245?ls=1&mt=12): Unit converter in the Notification Center
