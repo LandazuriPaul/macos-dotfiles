@@ -47,6 +47,13 @@
 			<string>New Tab
 New Tab</string>
 		</dict>
+		<key>0x6b-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>13</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
 		<key>0x74-0x100000</key>
 		<dict>
 			<key>Action</key>
@@ -257,7 +264,7 @@ Show Timestamps</string>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3360 346 759 531 3360 -180 1920 1080 </string>
+	<string>3056 0 570 451 1920 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>3216 588 570 451 1920 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3002,7 +3009,7 @@ Show Timestamps</string>
 	<key>NoSyncInstallationId</key>
 	<string>B43C02CF-DB13-47C3-8249-D4663B9B6143</string>
 	<key>NoSyncLastTipTime</key>
-	<real>604329040.39267397</real>
+	<real>604420882.81825399</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
 	<integer>8</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -3739,12 +3746,13 @@ Show Timestamps</string>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>0003</string>
+		<string>0000</string>
+		<string>0004</string>
 		<string>0001</string>
 		<string>000</string>
-		<string>0004</string>
-		<string>0002</string>
-		<string>0000</string>
 		<string>0005</string>
+		<string>0002</string>
+		<string>0006</string>
 	</array>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<true/>
@@ -3813,7 +3821,7 @@ Show Timestamps</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-25T09:46:21Z</date>
+	<date>2020-02-27T09:58:14Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
