@@ -44,3 +44,8 @@ Some development tools to complete the installation process.
    ```sh
    brew install terraform
    ```
+
+3. Install [Watch](https://formulae.brew.sh/formula/watch): Command line tool to run periodically a program and has its output upadted.
+   ```sh
+   brew install watch
+   ```
