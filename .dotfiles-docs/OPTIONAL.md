@@ -39,3 +39,8 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 - [Gapplin](https://apps.apple.com/app/coteditor/id768053424?ign-mpt=uo%3D8): Opens SVG files to export them into any image extension file
 
 - [Convertos](https://apps.apple.com/us/app/convertos-unit-converter-widget/id933651245?ls=1&mt=12): Unit converter in the Notification Center
+
+- [Gitify](https://www.gitify.io/): A menubar application to be notified on GitHub notifications.
+  ```sh
+  brew cask install gitify
+  ```
