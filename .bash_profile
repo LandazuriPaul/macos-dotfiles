@@ -2,6 +2,9 @@
 
 ### PATH configuration (for both BASH and ZSH)
 
+# Homebrew
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # sbin
 export PATH="/usr/local/sbin:$PATH"
 
