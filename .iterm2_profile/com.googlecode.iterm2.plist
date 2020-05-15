@@ -264,9 +264,9 @@ Show Timestamps</string>
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3056 0 570 451 1920 0 1920 1080 </string>
+	<string>0 652 1920 428 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>3216 588 570 451 1920 0 1920 1080 </string>
+	<string>835 398 570 451 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>730 0 710 499 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -290,6 +290,8 @@ Show Timestamps</string>
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Paste Bracketing</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -941,6 +943,8 @@ Show Timestamps</string>
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Paste Bracketing</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1613,6 +1617,8 @@ Show Timestamps</string>
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Paste Bracketing</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2302,6 +2308,8 @@ Show Timestamps</string>
 			<string></string>
 			<key>AWDS Window Option</key>
 			<string>No</string>
+			<key>Allow Paste Bracketing</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -2998,9 +3006,9 @@ Show Timestamps</string>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{1920, 0}, {1920, 1080}}</string>
+		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{2219, 768}</string>
+		<string>{147, 830}</string>
 	</dict>
 	<key>NoSyncInstallUtilitiesPackage</key>
 	<true/>
@@ -3009,9 +3017,9 @@ Show Timestamps</string>
 	<key>NoSyncInstallationId</key>
 	<string>B43C02CF-DB13-47C3-8249-D4663B9B6143</string>
 	<key>NoSyncLastTipTime</key>
-	<real>604420882.81825399</real>
+	<real>606828633.74581504</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>8</integer>
+	<integer>12</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3745,14 +3753,36 @@ Show Timestamps</string>
 	<real>603466413.03809595</real>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
-		<string>0003</string>
-		<string>0000</string>
+		<string>0010</string>
+		<string>0026</string>
+		<string>0015</string>
 		<string>0004</string>
+		<string>0009</string>
+		<string>0024</string>
+		<string>0013</string>
+		<string>0002</string>
+		<string>0018</string>
+		<string>0007</string>
+		<string>0022</string>
+		<string>0011</string>
+		<string>0000</string>
+		<string>0027</string>
+		<string>0016</string>
+		<string>0005</string>
+		<string>0020</string>
+		<string>0025</string>
+		<string>0014</string>
+		<string>0003</string>
+		<string>0019</string>
+		<string>0008</string>
+		<string>0023</string>
+		<string>0012</string>
 		<string>0001</string>
 		<string>000</string>
-		<string>0005</string>
-		<string>0002</string>
+		<string>0017</string>
 		<string>0006</string>
+		<string>0021</string>
+		<string>0028</string>
 	</array>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<true/>
@@ -3821,7 +3851,7 @@ Show Timestamps</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-27T09:58:14Z</date>
+	<date>2020-03-25T14:26:53Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
@@ -3839,7 +3869,7 @@ Show Timestamps</string>
 	<key>TabViewType</key>
 	<integer>1</integer>
 	<key>ThreeFingerEmulates</key>
-	<true/>
+	<false/>
 	<key>UseBorder</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
