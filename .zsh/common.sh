@@ -1,4 +1,4 @@
-### Node
+# Node environment
 source ~/.zsh/nvm.sh
 
 # kubectl completion
