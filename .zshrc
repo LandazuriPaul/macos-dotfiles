@@ -128,11 +128,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Fuzzy finder integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# nvm check on directory change
-source ~/.nvm.sh
-
-## DevOps tools
-
-# kubectl completion
-source <(kubectl completion zsh)
+# Other shell integrations
+source ~/.zsh/shell_integration.sh
 

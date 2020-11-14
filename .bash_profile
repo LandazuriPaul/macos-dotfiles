@@ -1,8 +1,5 @@
 #!/bin/bash
 
-### Shell integrations
-source ~/.sh/shell_integration.sh
-
 ### PATH configuration (for both BASH and ZSH)
 
 # Homebrew

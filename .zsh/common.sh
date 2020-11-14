@@ -1,3 +1,11 @@
+### Node
+source ~/.zsh/nvm.sh
+
+### DevOps tools
+
+# kubectl completion
+source <(kubectl completion zsh)
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "${HOME}/scripts/google-cloud-sdk/path.zsh.inc" ]; then . "${HOME}/scripts/google-cloud-sdk/path.zsh.inc"; fi
 
