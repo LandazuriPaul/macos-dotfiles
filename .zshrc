@@ -136,21 +136,3 @@ source ~/.nvm.sh
 # kubectl completion
 source <(kubectl completion zsh)
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f "${HOME}/scripts/google-cloud-sdk/path.zsh.inc" ]; then . "${HOME}/scripts/google-cloud-sdk/path.zsh.inc"; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f "${HOME}/scripts/google-cloud-sdk/completion.zsh.inc" ]; then . "${HOME}/scripts/google-cloud-sdk/completion.zsh.inc"; fi
-
-
-# Terraform completion
-if [ -f '/usr/local/bin/terraform' ]; then
-  autoload -U +X bashcompinit && bashcompinit
-  complete -o nospace -C /usr/local/bin/terraform terraform
-fi
-
-# Terraform / Google Cloud keys
-if [ -f "${HOME}/.secrets/tfstate_secret.key" ]; then
-  export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.secrets/atrocity-management-ead12f83b288.json"
-  export TF_VAR_terraform_state_encryption_key="$(cat ${HOME}/.secrets/tfstate_secret.key)"
-fi

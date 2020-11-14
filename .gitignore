@@ -32,11 +32,13 @@ tmp/
 ##################
 *.pyc
 build/
+dist/
+.sass-cache/
 
 # Log files #
 #############
-npm-debug.log
-.sass-cache/
+*.log
+logs/
 
 # Vendor files #
 ################
@@ -44,8 +46,8 @@ node_modules/
 bower_components/
 vendor/
 
-# Vendor files #
-################
+# Compressed files #
+####################
 *.tar.gz
 
 # Other ignored files #
