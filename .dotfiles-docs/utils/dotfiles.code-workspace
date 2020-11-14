@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../.aliases"
+		},
+		{
+			"path": "../../.config"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../.dotfiles-scripts"
+		},
+		{
+			"path": "../../.iterm2_profile"
+		},
+		{
+			"path": "../../.zsh"
+		}
+	]
+}
