@@ -1,22 +1,25 @@
 {
-	"folders": [
-		{
-			"path": "../../.aliases"
-		},
-		{
-			"path": "../../.config"
-		},
-		{
-			"path": ".."
-		},
-		{
-			"path": "../../.dotfiles-scripts"
-		},
-		{
-			"path": "../../.iterm2_profile"
-		},
-		{
-			"path": "../../.zsh"
-		}
-	]
+  "folders": [
+    {
+      "path": "../../.aliases"
+    },
+    {
+      "path": "../../.config"
+    },
+    {
+      "path": ".."
+    },
+    {
+      "path": "../../.dotfiles-scripts"
+    },
+    {
+      "path": "../../.iterm2_profile"
+    },
+    {
+      "path": "../../.zsh"
+    },
+    {
+      "path": "../../.weechat"
+    }
+  ]
 }
