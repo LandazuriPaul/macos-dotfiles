@@ -66,15 +66,23 @@ In order to have an operational system to develop, here is an sorted list of ins
    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
    ```
 
-10. Install [Docker](https://www.docker.com/) following this [link](https://download.docker.com/mac/stable/Docker.dmg).
+10. Install [tmux](https://github.com/tmux/tmux) and [its package manager](https://github.com/tmux-plugins/tpm):
 
-11. Install the [Kubernetes](https://kubernetes.io/) CLI tool, `kubectl`:
+    ```sh
+    brew install tmux
+    mkdir -p $HOME/.tmux/plugins
+    git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+    ```
+
+11. Install [Docker](https://www.docker.com/) following this [link](https://download.docker.com/mac/stable/Docker.dmg).
+
+12. Install the [Kubernetes](https://kubernetes.io/) CLI tool, `kubectl`:
 
     ```sh
     brew install kubernetes-cli
     ```
 
-12. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
+13. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
     ```sh
     brew install weechat
     ```
