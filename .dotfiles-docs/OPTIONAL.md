@@ -44,3 +44,13 @@ Here is an unsorted list of useful application to install on a brand new macOS:
   ```sh
   brew cask install gitify
   ```
+
+### Useful scripts to run on macOS
+
+Once your installation is complete, there are still some useful scripts that you might want to run to have your OS utterly ready.
+
+- Change the default directory for your screenshots:
+  ```sh
+  mkdir -p ~/Pictures/Screenshots/ # Create the screenshot directory
+  defaults write com.apple.screencapture location ~/Pictures/Screenshots # Define your new directory as the screenshot destination
+  ```

@@ -2,13 +2,11 @@
 
 ## Settings and extensions
 
-Once VS Code is installed, first install the [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension.
-
-You'll then be able to connect to your GitHub account and pick the correct gist to where your settings are saved in.
+Once VS Code is installed, first login with GitHub to be able to sync you settings.
 
 ## Fonts
 
-FiraCode font:
+FiraCode font for some nice ligature features:
 
 ```sh
 brew tap homebrew/cask-fonts

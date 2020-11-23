@@ -22,13 +22,3 @@ This script will:
 If you want to start a brand new tracking system for your dotfiles, checkout the [init.sh](../.dotfiles-scripts/init.sh) script.
 
 Also, if you plan on publishing your dotfiles to a public repository, it can be useful to change the `user.email` configuration straightaway, with the following command `dotfiles config user.email YOUR_EMAIL`.
-
-## Useful scripts to run on macOS
-
-Once your installation is complete, there are still some useful scripts that you might want to run to have your OS utterly ready.
-
-- Change the default directory for your screenshots:
-  ```sh
-  mkdir -p ~/Pictures/Screenshots/ # Create the screenshot directory
-  defaults write com.apple.screencapture location ~/Pictures/Screenshots # Define your new directory as the screenshot destination
-  ```
