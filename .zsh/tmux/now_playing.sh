@@ -4,22 +4,48 @@
 # Source https://github.com/jdxcode/tmux-spotify-info
 
 NOW_PLAYING=$(osascript <<EOF
-tell application "Spotify"
-  if it is running then
-    if player state is playing then
-      set track_name to name of current track
-      set artist_name to artist of current track
+set is_spotify_playing to false
+set is_music_playing to false
+set should_display_info to false
 
-      if artist_name > 0
-        # If the track has an artist set and is therefore most likely a song rather than an advert
-        "♫ " & artist_name & " - " & track_name
-      else
-        # If the track doesn't have an artist set and is therefore most likely an advert rather than a song
-        "~ " & track_name
-      end if
-    end if
-  end if
-end tell
+if application "Spotify" is running then
+	tell application "Spotify"
+		if player state is playing then
+			set is_spotify_playing to true
+		end if
+	end tell
+end if
+
+if application "Music" is running then
+	tell application "Music"
+		if player state is playing then
+			set is_music_playing to true
+		end if
+	end tell
+end if
+
+if is_spotify_playing then
+	tell application "Spotify"
+		# we don't want advert info
+		if artist of current track > 0 then
+			set should_display_info to true
+			set track_name to name of current track
+			set track_artist to artist of current track
+		end if
+	end tell
+
+else if is_music_playing then
+	tell application "Music"
+		set should_display_info to true
+		set track_name to name of current track
+		set track_artist to artist of current track
+	end tell
+end if
+
+
+if should_display_info then
+	return "♫ " & track_name & " - " & track_artist
+end if
 EOF)
 
 echo $NOW_PLAYING
