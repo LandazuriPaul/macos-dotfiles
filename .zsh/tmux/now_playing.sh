@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Returns the current playing song in Spotify for OSX
-# Source https://github.com/jdxcode/tmux-spotify-info
+# Returns the current playing song in Spotify or Apple Music on macOS
 
 NOW_PLAYING=$(osascript <<EOF
 set is_spotify_playing to false
