@@ -44,4 +44,5 @@ cdnvm(){
 }
 
 # Map cd
+alias ocd=' builtin cd'
 alias cd='cdnvm'
