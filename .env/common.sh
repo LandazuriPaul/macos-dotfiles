@@ -1,9 +1,6 @@
 # Homebrew
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
-# GitHub
-export GITHUB_ACCESS_TOKEN=$(<"$HOME/.secrets/github-access-token")
-
 # sbin
 export PATH="/usr/local/sbin:$PATH"
 
