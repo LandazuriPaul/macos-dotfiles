@@ -1,6 +1,3 @@
-# Homebrew
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
 # sbin
 export PATH="/usr/local/sbin:$PATH"
 
@@ -14,7 +11,9 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Go
 export GOPATH="$HOME/Documents/Development/go"
+export GOROOT="/usr/local/opt/go/libexec"
 export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin"
 
 # Pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
@@ -24,3 +23,6 @@ fi
 # jEnv integration
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# Homebrew
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
