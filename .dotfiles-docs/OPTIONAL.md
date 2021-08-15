@@ -18,9 +18,14 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 
 ### Development tools
 
-- [Sourcetree](https://www.sourcetreeapp.com/): The user-friendly git-GUI from Atlassian.
+- [GitAhead](http://gitahead.com/): Open Source Git GUI.
 
 - [TablePlus](https://tableplus.com/): friendly GUI for relational databases
+
+- [bat](https://github.com/sharkdp/bat): a cat clone with wings
+  ```shel
+  brew install bat
+  ```
 
 ### Utilities
 
@@ -28,7 +33,9 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 
 - [Bartender](https://www.macbartender.com/): Help organise the mac menu bar icons.
 
-- [ShiftIt](https://github.com/fikovnik/ShiftIt): « Managing window size and position in OSX. »
+- [iStats Menus](https://bjango.com/mac/istatmenus/): Easily monitor the macOS system from the menu bar.
+
+- [Rectangle](https://rectangleapp.com/): Move and resize windows in macOS using keyboard shortcuts or snap areas.
 
 - [Flycut](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12): A macOS clipboard manager.
 
