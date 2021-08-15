@@ -10,6 +10,9 @@ alias nv='nvim'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES;killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
+# Network
+alias flush-dns='sudo killall -HUP mDNSResponder'
+
 # PC specifics
 alias tmp='cd ~/Documents/Development/tmp/'
 alias dev='cd ~/Documents/Development/'
