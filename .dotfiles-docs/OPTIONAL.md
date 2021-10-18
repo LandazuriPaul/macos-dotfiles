@@ -1,6 +1,22 @@
-# Optional non-CLI applications
+# Optional CLI and non-CLI applications
 
 Here is an unsorted list of useful application to install on a brand new macOS:
+
+### Terminal
+
+- [tmux](https://github.com/tmux/tmux) and [its package manager](https://github.com/tmux-plugins/tpm):
+
+  ```sh
+  brew install tmux
+  mkdir -p $HOME/.tmux/plugins
+  git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+  ```
+
+- [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
+  ```sh
+  brew install weechat
+  ```
+  Once installed, please follow the instructions in the [WEECHAT.md](./WEECHAT.md) file.
 
 ### Browsers
 
@@ -18,7 +34,7 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 
 ### Development tools
 
-- [GitAhead](http://gitahead.com/): Open Source Git GUI.
+- [GitAhead](https://gitahead.github.io/gitahead.com/): Open Source, efficient and nice-looking git GUI tool.
 
 - [TablePlus](https://tableplus.com/): friendly GUI for relational databases
 

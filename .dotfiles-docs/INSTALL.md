@@ -66,13 +66,13 @@ In order to have an operational system to develop, here is an sorted list of ins
    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
    ```
 
-10. Install [tmux](https://github.com/tmux/tmux) and [its package manager](https://github.com/tmux-plugins/tpm):
+10. Install [fzf](https://github.com/junegunn/fzf), the general-purpose command-line fuzzy finder:
 
     ```sh
-    brew install tmux
-    mkdir -p $HOME/.tmux/plugins
-    git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+    brew install fzf
     ```
+
+    Once installed, with `ctrl+r`, you'll be able to fuzzy-find entries in your zsh or bash history. See the project page for more information and usages.
 
 11. Install [Docker](https://www.docker.com/) following this [link](https://download.docker.com/mac/stable/Docker.dmg).
 
@@ -81,12 +81,6 @@ In order to have an operational system to develop, here is an sorted list of ins
     ```sh
     brew install kubernetes-cli
     ```
-
-13. Install [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
-    ```sh
-    brew install weechat
-    ```
-    Once installed, please follow the instructions in the [WEECHAT.md](./WEECHAT.md) file.
 
 ---
 
