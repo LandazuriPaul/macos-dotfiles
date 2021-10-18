@@ -41,14 +41,7 @@ In order to have an operational system to develop, here is an sorted list of ins
    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
    ```
 
-7. Install [iTerm2](https://iterm2.com/), following [this link](https://iterm2.com/downloads/stable/latest). Once iTerm2 is successfully installed, redirect its settings to the `~.iterm2_profile` folder. You can find this feature in the _General_ pane of the iTerm2 preferences, under the _Preferences_ tab.
-
-   Tick the two checkboxes:
-   `Load preferences from a custom folder or URL`: Point here the `.iterm2_profile` filder.
-
-   `Save changes to folder when iTerm2 quits`: So your preferences will stay in saved within the repository.
-
-   Also, it can be useful to run the iTerm2 integration script to enjoy all its features. In the main iTerm2 menu, launch `Install Shell Integration`.
+7. Install [iTerm2](https://iterm2.com/), following [this link](https://iterm2.com/downloads/stable/latest). Once installed, head to the instructions at [ITERM2.md](./ITERM2.md)
 
 8. Install the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme for zsh:
 
