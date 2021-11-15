@@ -75,7 +75,7 @@ HIST_STAMPS="%d/%m/%y %T"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  osx
+  macos
   docker
   sublime
   vscode
