@@ -14,3 +14,4 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 if [ -f '/usr/local/bin/terraform' ]; then
     complete -C /usr/local/bin/terraform terraform
 fi
+. "$HOME/.cargo/env"
