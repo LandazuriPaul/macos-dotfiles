@@ -8,4 +8,3 @@ source ~/.env/common.sh
 
 # Load secrets as environment variables
 [ -f ~/.secrets/environment.sh ] && source ~/.secrets/environment.sh
-. "$HOME/.cargo/env"
