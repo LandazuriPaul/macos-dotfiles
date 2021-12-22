@@ -29,3 +29,18 @@ export PATH="$PATH:$GOROOT/bin"
 
 # Rust integration
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
+
+# Pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# jEnv integration
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# Homebrew
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Kubectl
+source "$HOME/.env/kubeconfig.sh"
