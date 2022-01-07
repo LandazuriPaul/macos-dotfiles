@@ -31,7 +31,13 @@ Some development tools to complete the installation process.
 
 ## DevOps tools
 
-1. Install [Google Cloud SDK](https://cloud.google.com/sdk/):
+1. Install [kubectx](https://github.com/ahmetb/kubectx):
+
+   ```sh
+   brew install kubectx
+   ```
+
+2. Install [Google Cloud SDK](https://cloud.google.com/sdk/):
 
    ```sh
    brew cask install google-cloud-sdk
@@ -39,13 +45,13 @@ Some development tools to complete the installation process.
 
    If you want to add the `gcloud` completion, you will need to download [Cloud SDK package](https://cloud.google.com/sdk/docs/quickstart-macos) and place it in `$HOME/scripts` (according to the current `.zshrc` configuration).
 
-2. Install [Terraform](https://www.terraform.io/):
+3. Install [Terraform](https://www.terraform.io/):
 
    ```sh
    brew install terraform
    ```
 
-3. Install [Watch](https://formulae.brew.sh/formula/watch): Command line tool to run periodically a program and has its output upadted.
+4. Install [Watch](https://formulae.brew.sh/formula/watch): Command line tool to run periodically a program and has its output upadted.
    ```sh
    brew install watch
    ```

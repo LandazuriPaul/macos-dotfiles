@@ -33,6 +33,8 @@ alias nb='npm run build'
 
 # DevOps tools
 alias kb='kubectl'
+alias kc='kubectx'
+alias tf='terraform'
 alias tf='terraform'
 alias dc='docker-compose'
 
