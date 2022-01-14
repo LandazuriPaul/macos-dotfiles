@@ -7,7 +7,7 @@ EXTRA_KUBECONFIG_FOLDER="$HOME/.kube/configs"
 
 # Extra kubeconfig files
 [ -d "${EXTRA_KUBECONFIG_FOLDER}" ] && \
-    find "${EXTRA_KUBECONFIG_FOLDER}" -type f -name "*.yml" -o -name "*.yaml" -print0 | while IFS= read -r -d $'\0' kubeconfigFile;
+    for kubeconfigFile in $(find "${EXTRA_KUBECONFIG_FOLDER}" -type f -name "*.yml" -o -name "*.yaml");
     do
         export KUBECONFIG="$kubeconfigFile:$KUBECONFIG"
     done
