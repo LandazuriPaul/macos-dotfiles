@@ -79,6 +79,12 @@ Some development tools to complete the installation process.
    ```
 
 4. Install [Watch](https://formulae.brew.sh/formula/watch): Command line tool to run periodically a program and has its output upadted.
+
    ```sh
    brew install watch
+   ```
+
+5. Install [k9s](https://k9scli.io/):
+   ```sh
+   brew install derailed/k9s/k9s
    ```
