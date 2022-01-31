@@ -19,7 +19,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Go
 export GOPATH="$HOME/dev/go"
-export GOROOT="/usr/local/opt/go/libexec"
 export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$GOROOT/bin"
 
