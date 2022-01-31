@@ -10,9 +10,23 @@ Some development tools to complete the installation process.
    xcode-select --install
    ```
 
-2. Install Neovim
+2. Install [Neovim](https://neovim.io/):
+
    ```sh
    brew install neovim
+   ```
+
+3. Install [vim-plug](https://github.com/junegunn/vim-plug) for both vim and neovim following the official [installation instructions](https://github.com/junegunn/vim-plug#installation).
+
+4. Install [yq](https://github.com/kislyuk/yq):
+
+   ```sh
+   pip3 install yq
+   ```
+
+5. Install [bat](https://github.com/sharkdp/bat):
+   ```sh
+   brew install bat
    ```
 
 ## Node.js
@@ -33,6 +47,13 @@ Some development tools to complete the installation process.
 
    ```sh
    curl -o- -L https://yarnpkg.com/install.sh | bash
+   ```
+
+## Java
+
+1. Install [jenv](https://www.jenv.be/), the Java version manager:
+   ```sh
+   brew install jenv
    ```
 
 ## DevOps tools
