@@ -22,7 +22,7 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 # Go
-export GOPATH="$HOME/Documents/Development/go"
+export GOPATH="$HOME/dev/go"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$GOROOT/bin"

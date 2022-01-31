@@ -17,8 +17,8 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 alias flush-dns='sudo killall -HUP mDNSResponder'
 
 # PC specifics
-alias tmp='cd ~/Documents/Development/tmp/'
-alias dev='cd ~/Documents/Development/'
+alias tmp='cd ~/dev/tmp/'
+alias dev='cd ~/dev/'
 
 # Yarn
 alias yb='yarn build'
