@@ -17,10 +17,6 @@ export NVM_DIR="$HOME/.nvm"
 # Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# jEnv integration
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
 # Go
 export GOPATH="$HOME/dev/go"
 export GOROOT="/usr/local/opt/go/libexec"
