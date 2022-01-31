@@ -15,6 +15,10 @@ To be sure you have all the prerequisites that this dotfiles repository makes us
 
 In order to install your dotfiles on a new machine, you can use the [install.sh](../.dotfiles-scripts/install.sh) script.
 
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/LandazuriPaul/macos-dotfiles/master/.dotfiles-scripts/install.sh)"
+```
+
 This script will:
 
 1. Clone this repository in you `$HOME` directory bare mode renaming the `.git` directory into `.dotfiles`.

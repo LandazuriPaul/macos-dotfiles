@@ -1,6 +1,3 @@
-# Tracking dotfiles alias
-alias dotfiles='/usr/local/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
-
 # Load common aliases
 source ~/.aliases/common.sh
 

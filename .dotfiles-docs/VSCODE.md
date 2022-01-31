@@ -10,5 +10,5 @@ FiraCode font for some nice ligature features:
 
 ```sh
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install font-fira-code
 ```

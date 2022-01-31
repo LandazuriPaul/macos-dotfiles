@@ -1,3 +1,6 @@
+# dotfiles
+alias dotfiles='/opt/homebrew/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
+
 # General aliases
 alias ..='cd ..'
 alias ll='ls -lAhFGW'
@@ -37,4 +40,3 @@ alias kc='kubectx'
 alias tf='terraform'
 alias tf='terraform'
 alias dc='docker-compose'
-

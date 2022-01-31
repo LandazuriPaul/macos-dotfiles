@@ -5,8 +5,14 @@ Some development tools to complete the installation process.
 ## Common tools
 
 1. Install the Xcode Command Line tools:
+
    ```sh
    xcode-select --install
+   ```
+
+2. Install Neovim
+   ```sh
+   brew install neovim
    ```
 
 ## Node.js
@@ -40,7 +46,7 @@ Some development tools to complete the installation process.
 2. Install [Google Cloud SDK](https://cloud.google.com/sdk/):
 
    ```sh
-   brew cask install google-cloud-sdk
+   brew install google-cloud-sdk
    ```
 
    If you want to add the `gcloud` completion, you will need to download [Cloud SDK package](https://cloud.google.com/sdk/docs/quickstart-macos) and place it in `$HOME/scripts` (according to the current `.zshrc` configuration).
