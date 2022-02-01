@@ -73,7 +73,11 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 Once your installation is complete, there are still some useful scripts that you might want to run to have your OS utterly ready.
 
 - Change the default directory for your screenshots:
+
   ```sh
   mkdir -p ~/Pictures/Screenshots/ # Create the screenshot directory
   defaults write com.apple.screencapture location ~/Pictures/Screenshots # Define your new directory as the screenshot destination
   ```
+
+- Service to toggle on/off the microphone: [https://medium.com/macoclock/how-in-the-bleep-do-i-mute-my-mic-anywhere-on-macos-d2fa1185b13](https://medium.com/macoclock/how-in-the-bleep-do-i-mute-my-mic-anywhere-on-macos-d2fa1185b13).
+  Then you can assign a shortcut to this service in the System Preferences > Keyboard > Shortcuts > Services
