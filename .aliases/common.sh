@@ -19,6 +19,7 @@ alias flush-dns='sudo killall -HUP mDNSResponder'
 # PC specifics
 alias tmp='cd ~/dev/tmp/'
 alias dev='cd ~/dev/'
+alias utils='cd ~/dev/utils/'
 
 # Yarn
 alias yb='yarn build'

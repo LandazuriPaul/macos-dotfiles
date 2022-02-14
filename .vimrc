@@ -1,78 +1,3 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" ==================
-" Plugin settings
-" ==================
-" vim-plug {{{
-call plug#begin('~/.vim/plugged')
-
-" editing
-Plug 'scrooloose/nerdcommenter'
-Plug 'junegunn/vim-easy-align'
-Plug 'vim-scripts/YankRing.vim'
-
-" file navigation
-Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-" Initialize plugin system
-call plug#end()
-
-" ===========================
-" My personal .vimrc settings
-" ===========================
-syntax on
-colorscheme pablo
-set expandtab
-set tabstop=2
-set shell=bash " Specific for fish shell integration
-
-" Basic editing settings
-nnoremap <U> :redo<CR>
-
-" NERDTree settings
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
-
-" NERDCommenter settings
-let g:NERDSpaceDelims = 1
-let g:NERDCompactSexyComs = 1
-let g:NERDDefaultAlign = 'left'
-let g:NERDAltDelims_java = 1
-let g:NERDCommentEmptyLines = 1
-let g:NERDTrimTrailingWhitespace = 1
-let g:NERDToggleCheckAllLines = 1
-
-" Leader & Mappings {{{
-let mapleader=","   " leader is comma
-
-" fast save and close
-nmap <leader>w :w<CR>
-nmap <leader>x :x<CR>
-nmap <leader>q :q<CR>
-
-" fix indentation
-nnoremap <leader>i mzgg=G`z<CR>
-
-" turn off search highlights
-nnoremap <leader><space> :nohlsearch<CR>
-
-" fzf
-nnoremap <c-p> :FZF<CR>
-
-" Select all
-map <C-a> <esc>ggVG<CR>
-
-" Toggle NERDTree
-map <C-n> :NERDTreeToggle<CR>
-
-
-
-
 " Bellow the classical .vimrc
 " ===========================
 " An example for a vimrc file.
@@ -136,3 +61,29 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
+" ===========================
+" vim-specific settings
+" ===========================
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+syntax on
+colorscheme pablo
+set expandtab
+set tabstop=2
+set shell=bash " Specific for fish shell integration
+
+" Basic editing settings
+nnoremap <U> :redo<CR>
+
+" ===========================
+" Common neovim & vim settings
+" ===========================
+" Load plugins & their settings
+source ~/.config/nvim/plugins.vim
+
+" Load ui config
+source ~/.config/nvim/ui.vim
+
+" Load keyboard mappings
+source ~/.config/nvim/mappings.vim
