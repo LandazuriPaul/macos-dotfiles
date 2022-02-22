@@ -12,6 +12,12 @@ Here is an unsorted list of useful application to install on a brand new macOS:
   git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
   ```
 
+- `grep`: Since some commands we use use the GNU grep and the macOS one isn’t entirely compatible with it, it can be useful to install the GNU one. Then this specific grep is available via `ggrep`:
+
+  ```sh
+  brew install grep
+  ```
+
 - [WeeChat](https://weechat.org/): an extensible IRC chat client in the terminal:
   ```sh
   brew install weechat
