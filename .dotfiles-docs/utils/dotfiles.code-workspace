@@ -1,28 +1,54 @@
 {
   "folders": [
     {
-      "path": ".."
-    },
-    {
-      "path": "../../.dotfiles-scripts"
-    },
-    {
-      "path": "../../.aliases"
-    },
-    {
-      "path": "../../.config"
-    },
-    {
-      "path": "../../.env"
-    },
-    {
-      "path": "../../.iterm2_profile"
-    },
-    {
-      "path": "../../.weechat"
-    },
-    {
-      "path": "../../.zsh"
+      "path": "../.."
     }
-  ]
+  ],
+  "settings": {
+    "files.exclude": {
+      "Applications": true,
+      "Desktop": true,
+      "Documents": true,
+      "Downloads": true,
+      "Library": true,
+      "Movies": true,
+      "Music": true,
+      "Pictures": true,
+      "Public": true,
+      "dev": true,
+      ".CFUserTextEncoding": true,
+      ".cache": true,
+      ".cups": true,
+      ".dlv": true,
+      ".docker": true,
+      ".dotfiles": true,
+      ".fzf": true,
+      ".fzf.bash": true,
+      ".fzf.zsh": true,
+      ".gitconfig": true,
+      ".gnupg": true,
+      ".iterm2_shell_integration.zsh": true,
+      ".iterm2": true,
+      ".jenv": true,
+      ".kube": true,
+      ".local": true,
+      ".magefile": true,
+      ".nvm": true,
+      ".oh-my-zsh": true,
+      ".redhat": true,
+      ".terraform.d": true,
+      ".Trash": true,
+      ".vault-token": true,
+      ".vim": true,
+      ".viminfo": true,
+      ".vscode": true,
+      ".weechat": true,
+      ".z": true,
+      ".zcompdump-pc-vivacity-pl-5.8": true,
+      ".zcompdump": true,
+      ".zprofile": true,
+      ".zshrc.pre-oh-my-zsh": true,
+      ".zsh_sessions": true
+    }
+  }
 }

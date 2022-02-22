@@ -85,6 +85,12 @@ Some development tools to complete the installation process.
    ```
 
 5. Install [k9s](https://k9scli.io/):
+
    ```sh
-   brew install derailed/k9s/k9s
+   brew install k9s
+   ```
+
+6. Install [stern](https://github.com/wercker/stern):
+   ```sh
+   brew install stern
    ```
