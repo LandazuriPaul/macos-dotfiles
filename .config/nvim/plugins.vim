@@ -43,3 +43,6 @@ let g:NERDAltDelims_java = 1
 let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
+
+" YankRink
+let g:yankring_history_dir = '~/.vim/YankRing'
