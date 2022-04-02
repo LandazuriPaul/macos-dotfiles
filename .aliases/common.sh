@@ -1,7 +1,8 @@
 # dotfiles
-alias dotfiles='/usr/local/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
+alias dotfiles='LANG=en_GB.UTF-8 /usr/local/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
 
 # General aliases
+alias git='LANG=en_GB.UTF-8 git'
 alias ..='cd ..'
 alias ll='ls -lAhFGW'
 alias top='htop'
