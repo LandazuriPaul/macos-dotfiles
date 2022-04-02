@@ -40,7 +40,7 @@ Here is an unsorted list of useful application to install on a brand new macOS:
 
 ### Development tools
 
-- [GitAhead](https://gitahead.github.io/gitahead.com/): Open Source, efficient and nice-looking git GUI tool.
+- [Fork](https://git-fork.com/): fast and friendly git GUI
 
 - [TablePlus](https://tableplus.com/): friendly GUI for relational databases
 
