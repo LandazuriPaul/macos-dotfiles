@@ -1,5 +1,5 @@
 # dotfiles
-alias dotfiles='/opt/homebrew/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
+alias dotfiles='/usr/local/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
 
 # General aliases
 alias ..='cd ..'
