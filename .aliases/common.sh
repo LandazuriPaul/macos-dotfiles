@@ -1,5 +1,6 @@
 # dotfiles
 alias dotfiles='LANG=en_GB.UTF-8 /usr/local/bin/git --git-dir=/Users/paul/.dotfiles/ --work-tree=/Users/paul'
+alias dottig='GIT_DIR=/Users/paul/.dotfiles/ WORK_TREE=/Users/paul /opt/homebrew/bin/tig'
 
 # General aliases
 alias git='LANG=en_GB.UTF-8 git'
