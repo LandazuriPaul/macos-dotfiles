@@ -94,7 +94,7 @@ Once your installation is complete, there are still some useful scripts that you
   sudo vi /etc/pam.d/sudo
 
   # paste this line
-  # auth       sufficient     pam_tid.so
+  auth       sufficient     pam_tid.so
   ```
 
   Then restart iTerm2.
