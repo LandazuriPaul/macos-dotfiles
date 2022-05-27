@@ -39,3 +39,6 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Kubectl
 source "$HOME/.env/kubeconfig.sh"
+
+# PostgreSQL utils (libpq)
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
