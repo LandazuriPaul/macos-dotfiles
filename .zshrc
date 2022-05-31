@@ -122,6 +122,9 @@ source ~/.bash_aliases
 # Use the bash profile
 source ~/.bash_profile
 
+# Homebrew on M1 CPU fix
+eval $(/opt/homebrew/bin/brew shellenv)
+
 # iTerm2 integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
